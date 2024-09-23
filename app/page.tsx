@@ -7,7 +7,6 @@ import Link from "next/link"; // Link bileşenini import etmelisiniz
 
 import robot from "@/public/images/1.png";
 import FlickeringGrid from "@/components/magicui/flickering-grid";
-import TypingAnimation from "@/components/magicui/typing-animation";
 
 
 
@@ -18,17 +17,12 @@ export default function Home() {
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
             <span
-              className={`-mt-14 inline-block text-[64px] font-bold text-black dark:text-white`}
+              className={`-mt-14 inline-block text-[30px] font-bold text-black dark:text-white`}
             >
-            <TypingAnimation
-      className="text-4xl font-bold text-black dark:text-white"
-      text="Anadoluda Yaşıyan Filozofların Felsefeye Katkısı"
-    />
+            Anadoluda Yaşıyan Filozofların Felsefeye Katkısı
             </span>
-            <p className="pb-6 font-medium">
-            &quot;M.Ö. 6. yüzyıldan M.S. 2. yüzyıla kadar Anadolu, hem Doğu hem de Batı düşüncesine önemli katkılarda bulunan birçok filozofa ev sahipliği yapmıştır. Bu dönemin düşünürleri, varlık, etik ve kozmoloji gibi temel felsefi konularda derinlemesine çalışmalar yapmış ve kalıcı etkiler bırakmıştır.&quot;
-            </p>
-            <p className="pb-6 font-medium">
+            <p className="pb-6 font-medium">M.Ö. 6. yüzyıldan M.S. 2. yüzyıla kadar Anadolu, hem Doğu hem de Batı düşüncesine önemli katkılarda bulunan birçok filozofa ev sahipliği yapmıştır. Bu dönemin düşünürleri, varlık, etik ve kozmoloji gibi temel felsefi konularda derinlemesine çalışmalar yapmış ve kalıcı etkiler bırakmıştır.</p>
+            <p>
              - Yapımcı{" "}
               <a
                 href="https://www.instagram.com/d_mr.softwarx/"
