@@ -18,7 +18,7 @@ export default function Home() {
               Herakleitos
             </span>
             <p className="pb-6 font-medium">
-            &quot;(M.Ö. 535–475), Efes&apos;te yaşamış ve evrendeki sürekli değişimi vurgulamıştır. Ünlü &quot;aynı nehirde iki kez yıkanamazsınız&quot; sözüyle değişim olgusunu ifade eden Herakleitos, evrensel düzenin "logos" adı verilen akılla yönetildiğini savunmuştur.&quot;
+            &quot;(M.Ö. 535–475), Efes&apos;te yaşamış ve evrendeki sürekli değişimi vurgulamıştır. Ünlü &quot;aynı nehirde iki kez yıkanamazsınız&quot; sözüyle değişim olgusunu ifade eden Herakleitos, evrensel düzenin &quot;logos&quot; adı verilen akılla yönetildiğini savunmuştur.&quot;
             </p>
           </div>
         </Wrapper>
